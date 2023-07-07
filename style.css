@@ -1,0 +1,129 @@
+/* FONTS */
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* Lobster  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap');
+
+/* reset browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+ /* individual styling */
+
+ /* HEADER */
+
+header nav ul{
+    height: 50px;
+    border-bottom: 2px solid black;
+    list-style: none;
+
+/* flex menu */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+/* LINK TAGS */
+
+a {
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Lobster';
+}
+
+/* MAIN */
+
+/* HEADINGS */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'lobster';
+    margin: 50px 0;
+
+}
+h2 {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'lobster';
+    margin: 50px 0;
+
+}
+h3 {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'lobster';
+    margin: 50px 0;
+
+}
+
+/* IMAGES */
+
+#maingoodboy {
+    margin: 50px auto;
+    display: block;
+    border-radius: 50%;
+    width: 50%;
+    border: 1px black solid;
+}
+
+/* LISTS */
+ol, ul {
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+}
+/* SPANS */
+
+/* SECTION ONE */
+
+#sectionOne {
+    text-align: center;
+    display: block;
+    margin: 0 200px;
+}
+#sectionOne a{
+    font-family: 'Poppins';
+    font-weight: 1000;
+}
+#sectionOne ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#sectionOne ul a{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 30%;
+}
+/* FONT AWESOME */
+i {
+    background-color: white;
+}
+
+/* FOOTER */
+footer{
+    height: 50px;
+    border-top: 2px solid black;
+    margin-top: 50px;
+}
+
+  /* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+    }
+} 
